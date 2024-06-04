@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
+    <link rel="icon" href="logo.jpg" type="image/jpg"/>
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>PlastiMart</h1>
+            <p>Turning Waste into Value: Connect, Recycle, Contribute</p>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="" target="_blank">Buy</a>
+            <a href="seller.html" target="_blank">Sell</a>    
+            <a href="about.html" target="_blank">About US</a>
+            <a href="login.html" target="_blank">Login</a>
+          <a href="signup.html" target="_blank">Sign Up</a>
+        </div>
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <section id="hero">
+        <img src="recycling-image.jpg" alt="Recycling Hub" class="hero-image">
+        <div class="quote-container">
+            <blockquote>
+                "One person's waste is another's treasure. Join us in creating a sustainable future."
+            </blockquote>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="get-started">
+        <h2>Get Started</h2>
+        <p>Ready to make a difference? Join Recycling Hub today and be part of the recycling revolution.</p>
+        <a href="signup.html" class="button">Sign Up as a Buyer</a>
+        <a href="signup.html" class="button">Sign Up as a Seller</a>
+    </section>
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Discover the power of recycling with Recycling Hub. Connect with sellers and buyers to give a new life to plastic items. Together, let's make a positive impact on the environment.</p>
+    </section>
+
+
+    </div>
+    <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
